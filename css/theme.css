@@ -17298,6 +17298,22 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	border-radius: var(--border-radius);
 }
 
+
+.hero-height{
+	height: 500px;
+}
+
+@media (min-width: 576px) {
+	.hero-height{
+		height: 650px;
+	}
+  }
+
+
+
+
+
+
 @media (max-width: 575px) {
 	.mobile-hide{
 	  display: none !important;
